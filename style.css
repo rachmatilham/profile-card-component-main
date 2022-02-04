@@ -1,0 +1,130 @@
+:root {
+  --dark-cyan: hsl(185, 75%, 39%);
+  --very-dark-desaturated-blue: hsl(229, 23%, 23%);
+  --dark-grayish-blue: hsl(227, 10%, 46%);
+  --dark-gray: hsl(0, 0%, 59%);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 18px;
+  background-color: var(--dark-cyan);
+  max-width: 100vw;
+  max-height: 100vh;
+  overflow: hidden;
+}
+
+main {
+  margin: 175px auto;
+  width: 330px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+main .bg {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+}
+
+main .bg .bg-top {
+  position: absolute;
+  top: -690px;
+  left: -830px;
+}
+
+main .bg .bg-bottom {
+  position: absolute;
+  top: 210px;
+  left: 150px;
+  overflow: hidden;
+}
+
+main .bg-card {
+  height: 140px;
+  background-image: url(images/bg-pattern-card.svg);
+  border-radius: 10px 10px 0 0;
+}
+
+main .photo {
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  border: 5px solid white;
+  background-image: url(images/image-victor.jpg);
+  position: relative;
+  bottom: 48px;
+  left: 117px;
+}
+
+main .profile {
+  text-align: center;
+  position: relative;
+  bottom: 27px;
+}
+
+main h1 {
+  font-size: 1em;
+}
+
+main h2 {
+  font-size: 0.85em;
+}
+
+main h3 {
+  font-size: 0.6em;
+}
+
+main .profile .name {
+  font-weight: 700;
+  padding-bottom: 10px;
+}
+
+main .profile .name span {
+  color: var(--dark-gray);
+  font-weight: 400;
+}
+
+main .profile .location {
+  color: var(--dark-gray);
+  font-weight: 400;
+}
+
+main .stats {
+  display: flex;
+  border-top: 1px solid var(--dark-gray);
+  height: 90px;
+}
+
+main .stats .item {
+  flex: 1;
+  padding: 25px 0;
+  text-align: center;
+  font-weight: 700;
+}
+
+main .stats .item .meta {
+  color: var(--dark-gray);
+  font-weight: 400;
+  letter-spacing: 1px;
+  padding-top: 5px;
+}
+
+.attribution {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
