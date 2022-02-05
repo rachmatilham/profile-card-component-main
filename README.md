@@ -27,7 +27,7 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Links
 
-- Solution URL: [Solution page on Frontend Mentor]()
+- Solution URL: [Solution page on Frontend Mentor](https://www.frontendmentor.io/solutions/profile-card-component-o-kE9dF65)
 - Github Pages URL: [Github Pages](https://rachmatilham.github.io/profile-card-component-main/)
 
 ## My process

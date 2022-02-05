@@ -117,7 +117,7 @@ main .stats .item .meta {
   padding-top: 5px;
 }
 
-.attribution {
+footer {
   position: absolute;
   bottom: 0px;
   width: 100%;
@@ -125,6 +125,6 @@ main .stats .item .meta {
   text-align: center;
 }
 
-.attribution a {
+footer a {
   color: hsl(228, 45%, 44%);
 }
